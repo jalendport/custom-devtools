@@ -6,10 +6,7 @@ A custom unpacked Chrome extension that provides custom fonts and font settings 
 
 ### Installation/Usage
 
-1. Please download this repo via the download button or the following command:
-```
-$ https://github.com/jalenconner/custom-devtools/archive/master.zip
-```
+1. Please download this repo via the download button or the following command:`$ https://github.com/jalenconner/custom-devtools/archive/master.zip`
 Unzip the file.
 1. Open Chrome. Enable `Developer Tools Expirements` in Chrome's Flags. Here's a jump link for easy access: [chrome://flags/#enable-devtools-experiments](chrome://flags/#enable-devtools-experiments) After enabling that flag, please restart Chrome.
 1. Open the Developer Tool Settings. Under `Experiments` please check `Allow Custom UI Themes`. Please close the Developer Tools.
