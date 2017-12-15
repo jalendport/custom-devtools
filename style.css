@@ -1,0 +1,32 @@
+:host-context(.platform-mac) .monospace,
+:host-context(.platform-mac) .source-code,
+.platform-mac .root-view .monospace,
+.platform-mac .root-view .source-code {
+  /* Please change this font name if you use something other than Operator Mono */
+  font-family: "Operator Mono Book SSm", monospace !important;
+  font-size: 14px !important;
+  line-height: 1.3em;
+}
+
+/* Comment this declaration out if you do not use Operator Mono */
+.webkit-html-attribute-name,
+.cm-css-qualifier,
+.cm-js-keyword,
+.webkit-html-comment,
+.webkit-css-comment,
+.cm-js-comment {
+  font-family: "Operator Mono SSm", monospace !important;
+  font-style: italic !important;
+  font-size: 0.95em !important;
+}
+
+/*
+* Fixes weird bug with the folding triangles in the gutter due to the changed font size
+* You may need to update these numbers if you increase/decrease the font size
+*/
+.elements-disclosure li.parent::before {
+  -webkit-mask-position: 2px 2px !important;
+}
+.elements-disclosure li.parent.expanded::before {
+  -webkit-mask-position: -14px 2px !important;
+}
