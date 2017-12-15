@@ -1,10 +1,12 @@
+<img src="icon48.png" alt="icon" align="left">
+
 # Custom Devtools
 
 A custom unpacked Chrome extension that provides custom fonts and font settings for the Chrome Developer Tools via CSS.
 
 ![screenshot](screenshot.png)
 
-### Installation/Usage
+## Installation/Usage
 
 1. Please [download this repo](https://github.com/jalenconner/custom-devtools/archive/master.zip) and unzip the folder. Move it somewhere safe.
 1. Open Chrome. Enable "Developer Tools Experiments" in Chrome's Flags (`chrome://flags/#enable-devtools-experiments`). After enabling that flag, please restart Chrome.
