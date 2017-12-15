@@ -1,6 +1,4 @@
-<img src="images/icon48.png" alt="icon" align="left">
-
-# Custom Devtools
+# <img src="images/icon48.png" alt="icon" align="left" width="35px"> Custom Devtools
 
 A custom unpacked Chrome extension that provides custom fonts and font settings for the Chrome Developer Tools via CSS.
 
